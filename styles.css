@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(222, 208, 190);
+}
+
+#toggle {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+#colorlist {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  list-style: none;
+  transform: translateX(-325px);
+  transition: 0.55s ease-in-out;
+}
+
+#home {
+  background-color: rgb(222, 208, 190);
+  padding: 20px;
+}
+
+#red {
+  background-color: rgba(204, 126, 102, 0.898);
+  padding: 20px;
+}
+
+#orange {
+  background-color: rgb(237, 193, 110);
+  padding: 20px;
+}
+
+#purple {
+  background-color: rgb(153, 91, 153);
+  padding: 20px;
+}
+
+#green {
+  background-color: rgb(125, 171, 125);
+  padding: 20px;
+}/*# sourceMappingURL=styles.css.map */
